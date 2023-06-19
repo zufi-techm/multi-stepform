@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.w{
+    box-shadow: -10px 0px 3px rgb(4, 9, 24),10px 10px 3px rgb(4, 6, 11) ;
+}
+.step{
+    z-index: 200;
+}
+.green{
+    background-color: green;
+}
+@media (min-width:1800px){
+    .w{
+        width:1500px;
+        margin: 150px;
+        padding-top:100px ;
+        border-radius: 50px;
+        box-shadow: -10px -10px 10px rgb(2, 8, 27),10px 10px 10px rgb(12, 15, 27) ;
+    }
+    .input{
+height:150px; 
+font-size: 80px;
+padding-left: 50px;
+margin: 100px;
+
+    }
+    .title{
+        font-size: 100px;
+        margin-top: 150px;
+    }
+    .h{
+        height:150px; 
+        font-size: 150px;
+    }
+    .div{
+        height:250px; 
+        margin: 50px;
+    }
+    .dot{
+       height: 100px;
+       width: 100px;
+       background: white;
+    }
+    .err{
+        font-size:70px;
+       height: 120px;
+       bottom: -50px;
+    }
+    .step{
+        font-size: 70px;
+    }
+    .d{
+height: 100px;
+width: 100px;
+    }
+    .l{
+height: 15px;
+    }
+}
